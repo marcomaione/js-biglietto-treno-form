@@ -15,9 +15,6 @@ h1 {
 }
 
 .first {
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
     background-color: white;
     border-radius: 30px;
     width: 70%;
@@ -25,16 +22,54 @@ h1 {
     margin: 30px auto;
 }
 
-.item p {
+.row {
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-1 {
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+button {
+    margin-left: 50px;
+    font-size: 20px;
+    color: red;
+}
+
+.second {
+    display: flex;
+    justify-content: center ;
+    background-color: white;
+    width: 70%;
+    min-height: 250px;
+    margin: 30px auto;
+}
+
+.item {
+    border: solid 1px black;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.option p {
     text-align: center;
     color:rgb(216, 72, 72);
     padding-bottom: 10px;
 }
 
-.item input {
+.option input {
     border-radius: 5px;
 }
 
-.item select {
+.option select {
     border-radius: 5px;
 }

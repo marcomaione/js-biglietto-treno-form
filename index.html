@@ -12,25 +12,44 @@
     <h1> CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
     <div class="first">
-        <div class="item">
-            <p>Nome Cognome</p>
-            <input type="text" id="name">
+        <div class="row">
+            <div class="option">
+                <p>Nome Cognome</p>
+                <input type="text" id="name">
+            </div>
+            <div class="option">
+                <p>Km da percorrere</p>
+                <input type="number" id="km">
+            </div>
+            <div class="option">
+                <p>Fascia d'eta</p>
+                <select id="age">
+                    <option value="minorenne">minorenne</option>
+                    <option value="maggiorenne">maggiorenne</option>
+                    <option value="penzionato">penzionato</option>
+                </select>
+            </div>
         </div>
-        <div class="item">
-            <p>Km da percorrere</p>
-            <input type="number" id="km">
-        </div>
-        <div class="item">
-            <p>Fascia d'età</p>
-            <select id="age">
-                <option value="minorenne">minorenne</option>
-                <option value="maggiorenne">maggiorenne</option>
-                <option value="penzionato">penzionato</option>
-            </select>
+        <div class="row-1">
+            <button id="genera">Genera</button>
+            <button id="annulla">Annulla</button>
         </div>
     </div>
 
     <h1>IL TUO BIGLIETTO</h1>
+
+    <div class="second">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item">
+
+            <h2 id="costo"></h2>
+
+        </div>
+
+    </div>
 
 
     
