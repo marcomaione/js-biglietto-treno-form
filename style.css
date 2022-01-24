@@ -46,18 +46,19 @@ button {
 }
 
 .second {
-    display: flex;
     justify-content: center ;
     background-color: white;
     width: 70%;
     min-height: 250px;
     margin: 30px auto;
+    display: none;
 }
 
 .item {
     border: solid 1px black;
-    width: 150px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .option p {
@@ -72,4 +73,15 @@ button {
 
 .option select {
     border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.second p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
 }
