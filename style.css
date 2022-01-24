@@ -39,6 +39,11 @@ h1 {
     justify-content:center;
 }
 
+.row-2 {
+    width: 90%;
+    margin: auto;
+}
+
 button {
     margin-left: 50px;
     font-size: 20px;
@@ -51,14 +56,22 @@ button {
     width: 70%;
     min-height: 250px;
     margin: 30px auto;
-    display: none;
+    display:none;
 }
 
 .item {
-    border: solid 1px black;
+    margin-top: 50px;
     width: 300px;
+    height: 150px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.item-gray {
+    margin-top: 50px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: gray;
 }
 
 .option p {
@@ -75,13 +88,15 @@ button {
     border-radius: 5px;
 }
 
-h2 {
+h3 {
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .second p {
     text-align: center;
-    font-size: 30px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-top: 10px;
 }
