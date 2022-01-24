@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(216, 72, 72);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
+    border-radius: 30px;
+    width: 70%;
+    min-height: 250px;
+    margin: 30px auto;
+}
+
+.item p {
+    text-align: center;
+    color:rgb(216, 72, 72);
+    padding-bottom: 10px;
+}
+
+.item input {
+    border-radius: 5px;
+}
+
+.item select {
+    border-radius: 5px;
+}
